@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorInput?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5ca11f" height="411.0" layoutX="369.0" layoutY="-5.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="231.0" />
+      <ImageView fitHeight="207.0" fitWidth="176.0" layoutX="14.0" layoutY="52.0">
+         <image>
+            <Image url="@../../../../../Downloads/funmat/daun.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" alignment="CENTER" layoutX="6.0" layoutY="244.0" minHeight="16" minWidth="69" prefHeight="55.0" prefWidth="176.0" text="A-GROW" textFill="#0d1e0b">
+         <font>
+            <Font name="Comic Sans MS" size="33.0" />
+         </font>
+         <effect>
+            <DropShadow color="#65a131" />
+         </effect>
+      </Label>
+      <Button layoutX="441.0" layoutY="294.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="112.0" text="Order" textAlignment="CENTER" />
+      <TextField layoutX="296.0" layoutY="93.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <TextField layoutX="296.0" layoutY="124.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <TextField layoutX="296.0" layoutY="156.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <TextField layoutX="296.0" layoutY="187.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <Label fx:id="kembali3" layoutX="296.0" layoutY="299.0" onMouseClicked="#handleKembali" text="KEMBALI" textFill="#ff1818" />
+      <Label fx:id="label1" alignment="CENTER" layoutX="272.0" layoutY="25.0" minHeight="16" minWidth="69" prefHeight="55.0" prefWidth="289.0" text="Pemesanan" textFill="#0d1e0b">
+         <font>
+            <Font name="Comic Sans MS" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow color="#65a131" />
+         </effect>
+      </Label>
+      <Label fx:id="kembali31" layoutX="197.0" layoutY="190.0" onMouseClicked="#handleKembali" text="Tanggal" textFill="#2c2929" />
+      <Label fx:id="kembali311" layoutX="197.0" layoutY="161.0" onMouseClicked="#handleKembali" text="Jenis Tanaman" textFill="#2c2929" />
+      <Label fx:id="kembali312" layoutX="197.0" layoutY="98.0" onMouseClicked="#handleKembali" text="Lahan" textFill="#2c2929" />
+      <Label fx:id="kembali3121" layoutX="197.0" layoutY="129.0" onMouseClicked="#handleKembali" text="Investasi" textFill="#2c2929" />
+   </children>
+</AnchorPane>

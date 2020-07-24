@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorInput?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="403.0" layoutY="307.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="112.0" text="Submit" />
+      <TextField layoutX="226.0" layoutY="83.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6e8a57" height="411.0" opacity="0.7" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+      <TextField alignment="BOTTOM_CENTER" layoutX="70.0" layoutY="83.0" prefHeight="31.0" prefWidth="90.0" promptText="Fullname" text=" Fullname      :" />
+      <TextField layoutX="70.0" layoutY="127.0" prefHeight="31.0" prefWidth="90.0" promptText="Fullname" text="Email             :" />
+      <TextField alignment="BOTTOM_LEFT" layoutX="70.0" layoutY="175.0" prefHeight="31.0" prefWidth="90.0" promptText="Fullname" text="Username     :" />
+      <TextField alignment="BOTTOM_LEFT" layoutX="70.0" layoutY="224.0" prefHeight="31.0" prefWidth="90.0" promptText="Fullname" text=" Password    :" />
+      <TextField layoutX="226.0" layoutY="127.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <TextField layoutX="226.0" layoutY="175.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <TextField layoutX="226.0" layoutY="224.0" prefHeight="31.0" prefWidth="289.0">
+         <effect>
+            <ColorInput height="27.99" width="255.0">
+               <paint>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bcb6b6" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </paint>
+            </ColorInput>
+         </effect>
+      </TextField>
+      <ImageView fitHeight="200.0" fitWidth="176.0" layoutX="534.0" layoutY="68.0">
+         <image>
+            <Image url="@../../../../../Downloads/funmat/daun.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" alignment="CENTER" layoutX="530.0" layoutY="268.0" minHeight="16" minWidth="69" prefHeight="55.0" prefWidth="184.0" text="A-GROW" textFill="#0d1e0b">
+         <font>
+            <Font name="Comic Sans MS" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow color="#65a131" />
+         </effect>
+      </Label>
+      <Label fx:id="kembali" layoutX="226.0" layoutY="314.0" onMouseClicked="#handleKembali" text="KEMBALI" textFill="#ff1818" />
+   </children>
+</AnchorPane>
